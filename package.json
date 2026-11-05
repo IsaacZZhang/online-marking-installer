@@ -1,0 +1,31 @@
+{
+  "name": "online-marking-installer",
+  "version": "1.0.0",
+  "description": "在线阅卷批改助手（online-marking skill）一句话安装器：检测已购买的 skill、补装进 WorkBuddy、自动装好 ego lite 浏览器与阅卷环境",
+  "type": "module",
+  "bin": {
+    "online-marking": "bin/cli.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin/",
+    "README.md"
+  ],
+  "config": {
+    "skill": "online-marking",
+    "displayName": "在线阅卷批改助手",
+    "merchantId": "2088312185165963",
+    "productId": "P0806000211890959",
+    "productUrl": "https://skillpay.alipay.com/shelf/product?productId=P0806000211890959&merchantId=2088312185165963",
+    "npxSpec": "github:IsaacZZhang/online-marking-installer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IsaacZZhang/online-marking-installer.git"
+  },
+  "scripts": {
+    "test": "node test/run.js"
+  }
+}
